@@ -1,0 +1,68 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url(images/karol-smoczynski-x-fmsvyPHLk-unsplash.jpg);
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.card {
+    background: linear-gradient(to right bottom , #f77f00 , #fcbf49 , #f77f00);
+    border: 2px solid red;
+    border-radius: 2rem;
+    width: 30rem;
+    height: 40rem;  
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 5rem 5rem 0 ;
+    padding-bottom: 1rem;
+    border-bottom: 0.2rem solid black;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.btn , .save-btn {
+    width: 15rem;
+    height:4rem;
+    border-radius: 2rem;
+    /* border: 0.1rem solid black; */
+    background-color: #d62828;
+    color: #ffe5ec;
+    font-weight: bold;
+    margin-top: 1rem;
+    text-shadow: 0 0 0.5rem #220901;
+}
+
+.btn:hover {
+    background-color: #ffe5ec;
+    color: #d62828;
+    text-shadow: none;
+}
+
+.save-btn {
+    background-color: #29bf12;
+}
+
+.save-btn:hover {
+    background-color: #ffe5ec;
+    color: #29bf12;
+    text-shadow: none;
+}
+
+#pv-entries {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
